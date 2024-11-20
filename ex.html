@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Pathways After 10th Class</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e0f7fa, #b2dfdb);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #00796b;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #004d40;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .options {
+            margin-bottom: 20px;
+        }
+        .options h3 {
+            background: #004d40;
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+        }
+        .options h3:hover {
+            background: #00796b;
+        }
+        .options h3::before {
+            content: '🔍';
+            margin-right: 10px;
+            font-size: 1.5em;
+        }
+        .options div {
+            display: none;
+            padding: 20px;
+            border-left: 5px solid #00796b;
+            background: #e0f2f1;
+            border-radius: 5px;
+            animation: fadeIn 0.5s ease;
+        }
+        .options div ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .accordion-content {
+            margin-top: 10px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Explore Your Career Pathways After 10th Class</h1>
+        <p>Congratulations on completing your 10th class! You're now faced with several exciting options for your next steps. Click on each option below to learn more about what each path offers and how it aligns with your career goals.</p>
+        
+        <div class="options">
+            <h3 onclick="toggleVisibility('intermediate')">Intermediate (Inter)</h3>
+            <div id="intermediate" class="accordion-content">
+                <h2>Intermediate (Inter)</h2>
+                <p>Choosing Intermediate allows you to specialize in a particular stream. Here’s what you can expect:</p>
+                <ul>
+                    <li><strong>BiPC (Biology, Physics, Chemistry):</strong> 
+                        <ul>
+                            <li>Future Scope: Medicine, Pharmacy, Biotechnology, Agricultural Sciences, etc.</li>
+                            <li>Possible Careers: Doctor, Pharmacist, Biotechnologist, Agricultural Scientist</li>
+                        </ul>
+                    </li>
+                    <li><strong>MPC (Mathematics, Physics, Chemistry):</strong>
+                        <ul>
+                            <li>Future Scope: Engineering, Architecture, Information Technology, etc.</li>
+                            <li>Possible Careers: Engineer, Architect, Software Developer, Data Analyst</li>
+                        </ul>
+                    </li>
+                    <li><strong>CEC (Commerce, Economics, Civics):</strong>
+                        <ul>
+                            <li>Future Scope: Business Management, Law, Banking, Chartered Accountancy</li>
+                            <li>Possible Careers: Lawyer, Chartered Accountant, Financial Analyst, Business Manager</li>
+                        </ul>
+                    </li>
+                    <li><strong>HEC (History, Economics, Civics):</strong>
+                        <ul>
+                            <li>Future Scope: Civil Services, Teaching, History Research, etc.</li>
+                            <li>Possible Careers: Civil Servant, Teacher, Historian, Economist</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="options">
+            <h3 onclick="toggleVisibility('polytechnic')">Polytechnic</h3>
+            <div id="polytechnic" class="accordion-content">
+                <h2>Polytechnic</h2>
+                <p>If you're interested in technical education with practical skills, Polytechnic might be a great fit. Explore various specializations like Mechanical, Electrical, Civil, or Computer Engineering.</p>
+                <ul>
+                    <li>Future Scope: Direct entry into the workforce with a diploma in technical fields.</li>
+                    <li>Possible Careers: Technician, Junior Engineer, Supervisor, Foreman</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="options">
+            <h3 onclick="toggleVisibility('diploma')">Diploma Courses</h3>
+            <div id="diploma" class="accordion-content">
+                <h2>Diploma Courses</h2>
+                <p>Diploma courses offer specialized training in fields like fashion design, hotel management, and more.</p>
+                <ul>
+                    <li>Future Scope: Enter the workforce with practical knowledge and skills.</li>
+                    <li>Possible Careers: Fashion Designer, Hotel Manager, Graphic Designer, Chef</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="options">
+            <h3 onclick="toggleVisibility('iti')">ITI (Industrial Training Institute)</h3>
+            <div id="iti" class="accordion-content">
+                <h2>ITI (Industrial Training Institute)</h2>
+                <p>ITI courses are designed to provide hands-on skills in trades such as electrician, mechanic, and welder.</p>
+                <ul>
+                    <li>Future Scope: Skilled trades with direct employment opportunities.</li>
+                    <li>Possible Careers: Electrician, Mechanic, Welder, Plumber</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="options">
+            <h3 onclick="toggleVisibility('otherOptions')">Other Options</h3>
+            <div id="otherOptions" class="accordion-content">
+                <h2>Other Options</h2>
+                <p>Consider other educational paths or vocational training based on your interests and career goals.</p>
+                <ul>
+                    <li>Vocational Courses: Training in specific job roles such as beautician, bakery, etc.</li>
+                    <li>Distance Education: Study while working or pursuing other interests.</li>
+                    <li>Entrepreneurship: Explore starting your own business if you have a passion or idea.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleVisibility(id) {
+            const element = document.getElementById(id);
+            if (element.style.display === "block") {
+                element.style.display = "none";
+            } else {
+                element.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarships Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #254d4c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card-header {
+            background-color: #254d4c;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .card-body {
+            padding: 15px;
+        }
+        .card-body p {
+            margin: 10px 0;
+        }
+        .apply-btn {
+            background-color: #254d4c;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .apply-btn:hover {
+            background-color: #254d4c;
+        }
+        footer {
+            background-color: #254d4c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Scholarships for Intermediate, B.E, and MBA Students</h1>
+    </header>
+
+    <div class="container">
+        <!-- Scholarship Card 1 -->
+        <div class="card">
+            <div class="card-header">
+                Intermediate Scholarship
+            </div>
+            <div class="card-body">
+                <p><strong>Eligibility:</strong> Students with 90% or above in 10th Grade.</p>
+                <p><strong>Amount:</strong> ₹50,000 per annum</p>
+                <p><strong>Location:</strong> Delhi, Mumbai, Hyderabad</p>
+                <a href="https://www.scholarshipsgov.in/intermediate-scholarship-2024/" target="_blank" class="apply-btn">Apply Now</a>
+            </div>
+        </div>
+
+        <!-- Scholarship Card 2 -->
+        <div class="card">
+            <div class="card-header">
+                B.E Scholarship
+            </div>
+            <div class="card-body">
+                <p><strong>Eligibility:</strong> Students with 85% or above in Intermediate.</p>
+                <p><strong>Amount:</strong> ₹75,000 per annum</p>
+                <p><strong>Location:</strong> Bangalore, Pune, Chennai</p>
+                <a href="https://www.buddy4study.com/article/scholarships-for-engineering-students" target="_blank" class="apply-btn">Apply Now</a>
+            </div>
+        </div>
+
+        <!-- Scholarship Card 3 -->
+        <div class="card">
+            <div class="card-header">
+                MBA Scholarship
+            </div>
+            <div class="card-body">
+                <p><strong>Eligibility:</strong> Graduates with 70% or above in B.E/B.Tech.</p>
+                <p><strong>Amount:</strong> ₹1,00,000 per annum</p>
+                <p><strong>Location:</strong> Ahmedabad, Kolkata, Lucknow</p>
+                <a href="https://nmat.nmims.edu/?msclkid=763c71b2b97711edfa9a1762194b5a7f"  target="_blank" class="apply-btn">Apply Now</a>
+            </div>
+        </div>
+
+        <!-- Add more cards as needed -->
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Scholarship Info | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="c.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher</title>
+    <style>
+        body{
+             background-color: #254d4c;
+            }
+        header h1{
+            /* background-color: #569692; */
+            padding: 30px;
+            text-align: center;
+            margin-top: 200px;
+            font-size: 10rem;
+            color: white;
+            position: relative;
+            display: inline-block;
+            margin-left: 30px;
+            }
+        header h1::after{
+            content: "";
+            height: 5px;
+            width: 100%;
+            /* background-color: #ff8733; */
+            background-image: linear-gradient(40deg,cyan,black,red);
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: scaleX(0);
+            transition: transform 0.35s ease-out;
+            transform-origin: center;
+            border-radius: 100px;
+        }
+        header h1:hover::after{
+            text-decoration: underline; 
+            transform: scaleX(1);
+            transform-origin: center;
+        }
+        header h1::first-letter{
+            color: #ff8733;
+            font-size: 13rem;
+            text-transform: uppercase;
+        }
+        span{
+            color: #ff8733;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="mainpage.html"><h1>Next<span>Step</span>Navigator</h1></a>
+    </header>
+    
+</body>
+</html>

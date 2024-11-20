@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="c.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronaut</title>
+    <style>
+        body{
+    background: aliceblue;
+}
+*{
+    margin: 0;
+}
+header{
+    text-align: center;
+    background-color: #569692;
+    padding: 50px;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header p{
+    font-size: 1.3rem;
+}
+.one{
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+}
+.one:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 1px black,1px 1px 1px black,1px 1px 1px black;
+    text-shadow: 1px 1px 1px lightblue;
+}
+.two{
+    text-align: center;
+    background-color: #bffcf9;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+
+}
+.two:hover{
+    background-color: #569692;
+    color: white;
+    box-shadow: 1px 1px 1px black,1px 1px 1px black,1px 1px 1px black;
+    text-shadow: 1px 1px 1px lightblue,;
+}
+footer{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    color: aliceblue;
+}
+/* Header Section */
+header h1{
+    /* background-color: #569692; */
+    padding: 30px;
+    text-align: center;
+    /* margin-top: 250px; */
+    font-size: 10rem;
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+header h1::after{
+    content: "";
+    height: 5px;
+    width: 100%;
+    /* background-color: #ff8733; */
+    background-image: linear-gradient(40deg,cyan,black,red);
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.35s ease-out;
+    transform-origin: center;
+    border-radius: 100px;
+}
+header h1:hover::after{
+    text-decoration: underline; 
+    transform: scaleX(1);
+    transform-origin: center;
+}
+header h1::first-letter{
+    color: #ff8733;
+    font-size: 13rem;
+    text-transform: uppercase;
+}
+span{
+    color: #ff8733;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Journey to Become An Astronaut</h1>
+        <p>Dare to dream big and reach the stars!</p>
+    </header>
+
+    <div class="one">
+        <h1>10 <sup>th</sup> Class Completed 🎓</h1>
+        <p>Congratulations on completing your 10th grade! The journey to the stars begins here.</p>
+    </div>
+    <div class="two">
+        <h1>Step:1 Choose Science Stream 📚</h1>
+        <p>Subjects: Physics, Chemistry, Mathematics, and optionally, Computer Science.</p>
+        <p>Focus on building a strong foundation in STEM subjects.</p>
+    </div>
+    <div class="one">
+        <h1>Step 2: Bachelor's Degree 🏫</h1>
+        <p>Pursue a degree in Aerospace Engineering, Physics, or Astronomy.</p>
+        <p>Top Institutes: IITs, IISc, NITs, BITS Pilani, etc.</p>
+    </div>
+    <div class="two">
+        <h1>Step 3: Advanced Studies 🎓</h1>
+        <p>Consider a Master's degree or Ph.D. in relevant fields like Astrophysics, Aeronautical Engineering, etc.</p>
+        <p>Specialize in areas that align with space research and technology.</p>
+    </div>
+    <div class="one">
+        <h1>Step 4: Physical Fitness and Training 💪</h1>
+        <p>Maintain top physical condition. Astronauts undergo rigorous physical and mental training.
+
+        </p>
+        <p>Consider joining the Air Force or undergoing specialized astronaut training programs.</p>
+    </div>
+    <div class="two">
+        <h1>Step 5: Gain Experience 🛠️</h1>
+        <p>Work in the aerospace industry, research organizations like ISRO or NASA, or serve as a pilot in the Air Force.</p>
+        <p>Build a strong professional profile with hands-on experience in space technology or aviation.</p>
+    </div>
+    <div class="one">
+        <h1>Step 6: Apply for Astronaut Program 🚀</h1>
+        <p>Once you meet the qualifications, apply for astronaut programs at space agencies like ISRO, NASA, or ESA.</p>
+        <p>Be prepared for a competitive selection process involving interviews, assessments, and simulations.</p>
+    </div>
+    <div class="two">
+        <h1>Welcome to Space! 🌌</h1>
+        <p>You've made it! Get ready for the ultimate adventure among the stars as a professional astronaut.</p>
+        <p>"The sky is not the limit, it's just the beginning."</p>
+    </div>
+    <footer>
+        <p>Explore more career maps at <a href="mainpage.html">Next Step Navigator</a></p>
+    </footer>
+
+</body>
+</html>
